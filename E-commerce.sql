@@ -3,7 +3,7 @@ CREATE TABLE Cliente (
     ClienteID INT PRIMARY KEY,
     Nome VARCHAR(100),
     Email VARCHAR(100),
-    Tipo VARCHAR(2)
+    Tipo VARCHAR(2) -- PF ou PJ
 );
 
 CREATE TABLE Conta (
